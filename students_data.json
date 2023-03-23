@@ -88,5 +88,23 @@
     "INC STATUS": "NULL",
     "EQUIVALENCY": "NULL",
     "RETAKE INFO": "NULL"
+   },
+   {
+    "Student ID": 1900006,
+    "FIRSTNAME": "ROMAR",
+    "MIDDLENAME": "L",
+    "LASTNAME": "BARROS",
+    "COURSE": "BSCS",
+    "YEAR": 4,
+    "SUBJECT": "ELEC",
+    "DESCRIPTION": "IT LOREM",
+    "MIDTERM": 3,
+    "FINALS": 2,
+    "FINAL GRADE": 1,
+    "REMARKS": "OK",
+    "CURRICULUM CODE": "BSCS2023",
+    "INC STATUS": "NULL",
+    "EQUIVALENCY": "NULL",
+    "RETAKE INFO": "NULL"
    }
  ]
