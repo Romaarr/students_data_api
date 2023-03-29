@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"grade_inquiries"},
+{"type":"table","name":"grades","database":"grade_inquiries","data":
+[
+{"id":"162","stud_id":"1900001","subject":"IT101","description":null,"midterm":"3AM\/l5PoI2Qd","finals":"3APn8JPoI2Rz","final_grade":"3AP9CJPoI2S8","remarks":null,"curriculum_code":null,"inc_status":null,"credited":null,"equivalency":null,"retake_info":null,"created_at":"2023-03-29 07:28:19","updated_at":"2023-03-29 07:28:19"},
+{"id":"163","stud_id":"1900002","subject":"ELEC","description":null,"midterm":"4wPZGZPoI2Ri","finals":"4wMWxZPoI2TC","final_grade":"5AObBZPoI2R\/","remarks":null,"curriculum_code":null,"inc_status":null,"credited":null,"equivalency":null,"retake_info":null,"created_at":"2023-03-29 07:28:19","updated_at":"2023-03-29 07:28:19"},
+{"id":"164","stud_id":"1900003","subject":"ELEC","description":null,"midterm":"AQBKoZToI2Q5","finals":"AQDlVpToI2Tr","final_grade":"AQCFspToI2TY","remarks":null,"curriculum_code":null,"inc_status":null,"credited":null,"equivalency":null,"retake_info":null,"created_at":"2023-03-29 07:28:20","updated_at":"2023-03-29 07:28:20"},
+{"id":"165","stud_id":"1900004","subject":"ELEC","description":null,"midterm":"BQCyw5ToI2R\/","finals":"BQC575ToI2QX","final_grade":"BgAZnJToI2SB","remarks":null,"curriculum_code":null,"inc_status":null,"credited":null,"equivalency":null,"retake_info":null,"created_at":"2023-03-29 07:28:20","updated_at":"2023-03-29 07:28:20"},
+{"id":"166","stud_id":"1900005","subject":"ELEC","description":null,"midterm":"CQCfZpToI2Tc","finals":"CgCBS5ToI2T\/","final_grade":"CgDN6pToI2Q0","remarks":null,"curriculum_code":null,"inc_status":null,"credited":null,"equivalency":null,"retake_info":null,"created_at":"2023-03-29 07:28:20","updated_at":"2023-03-29 07:28:20"},
+{"id":"167","stud_id":"1900006","subject":"ELEC","description":null,"midterm":"DgCdtJToI2RR","finals":"DgCXPpToI2QT","final_grade":"DwBykJToI2RT","remarks":null,"curriculum_code":null,"inc_status":null,"credited":null,"equivalency":null,"retake_info":null,"created_at":"2023-03-29 07:28:20","updated_at":"2023-03-29 07:28:20"}
+]
+}
+]
