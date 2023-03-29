@@ -1,369 +1,110 @@
-{
-        "-- phpMyAdmin SQL Dump": "-- version 5.2.0",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- https://www.phpmyadmin.net/",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Host: 127.0.0.1",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Generation Time: Mar 29",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Server version: 10.4.27-MariaDB",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- PHP Version: 8.2.0",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "\"SET SQL_MODE = \"\"NO_AUTO_VALUE_ON_ZERO\"\";\"",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "START TRANSACTION;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "\"SET time_zone = \"\"+00:00\"\";\"",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "/*!40101 SET NAMES utf8mb4 */;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Database: `grade_inquiries`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- --------------------------------------------------------",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Table structure for table `users`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "CREATE TABLE `users` (",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `id` bigint(20) UNSIGNED NOT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `code` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `mobile` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `email` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `firstname` varchar(255) NOT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `middlename` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `lastname` varchar(255) NOT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `password` varchar(255) NOT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `mpin` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `role` varchar(255) NOT NULL DEFAULT 'admin'",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `avatar` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `level` int(11) NOT NULL DEFAULT 1",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `email_verified_at` timestamp NULL DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `mobile_verified_at` timestamp NULL DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `remember_token` varchar(100) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `status` varchar(255) DEFAULT 'pending'",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `created_at` timestamp NULL DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `updated_at` timestamp NULL DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `student_id` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `default_password` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `course` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  `year` varchar(255) DEFAULT NULL",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": ") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Dumping data for table `users`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "INSERT INTO `users` (`id`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "(2",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "(3",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "(4",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "(5",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "(11",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "(12",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "(13",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Indexes for dumped tables",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- Indexes for table `users`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "ALTER TABLE `users`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  ADD PRIMARY KEY (`id`)",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  ADD UNIQUE KEY `users_email_unique` (`email`)",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  ADD UNIQUE KEY `users_student_id_unique` (`student_id`);",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- AUTO_INCREMENT for dumped tables",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "-- AUTO_INCREMENT for table `users`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "--",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "ALTER TABLE `users`",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "COMMIT;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;",
-        "": ""
-    },
-    {
-        "-- phpMyAdmin SQL Dump": "/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;",
-        "": ""
-    }
-]
+[
+  {
+   "Student ID": 1900001,
+   "FIRSTNAME": "RJAY",
+   "MIDDLENAME": "PITOGO",
+   "LASTNAME": "ROSAS",
+   "COURSE": "BSCS",
+   "YEAR": 3,
+   "SUBJECT": "IT101",
+   "DESCRIPTION": "IT LOREM",
+   "MIDTERM": 1,
+   "FINALS": 1,
+   "FINAL GRADE": 1,
+   "REMARKS": "OK",
+   "CURRICULUM CODE": "BSCS2023",
+   "INC STATUS": "NULL",
+   "EQUIVALENCY": "NULL",
+   "RETAKE INFO": "NULL"
+  },
+  {
+    "Student ID": 1900002,
+    "FIRSTNAME": "MARVIN",
+    "MIDDLENAME": "GAC",
+    "LASTNAME": "GACUAN",
+    "COURSE": "BSCS",
+    "YEAR": 3,
+    "SUBJECT": "ELEC",
+    "DESCRIPTION": "IT LOREM",
+    "MIDTERM": 2,
+    "FINALS": 2,
+    "FINAL GRADE": 2,
+    "REMARKS": "OK",
+    "CURRICULUM CODE": "BSCS2023",
+    "INC STATUS": "NULL",
+    "EQUIVALENCY": "NULL",
+    "RETAKE INFO": "NULL"
+   },
+    {
+    "Student ID": 1900003,
+    "FIRSTNAME": "JASPER",
+    "MIDDLENAME": "OLA",
+    "LASTNAME": "OLAZO",
+    "COURSE": "BSCS",
+    "YEAR": 3,
+    "SUBJECT": "ELEC",
+    "DESCRIPTION": "IT LOREM",
+    "MIDTERM": 2,
+    "FINALS": 2,
+    "FINAL GRADE": 2,
+    "REMARKS": "OK",
+    "CURRICULUM CODE": "BSCS2023",
+    "INC STATUS": "NULL",
+    "EQUIVALENCY": "NULL",
+    "RETAKE INFO": "NULL"
+   },
+    {
+    "Student ID": 1900004,
+    "FIRSTNAME": "JOSHUA",
+    "MIDDLENAME": "BIS",
+    "LASTNAME": "BISMONTE",
+    "COURSE": "BSCS",
+    "YEAR": 4,
+    "SUBJECT": "ELEC",
+    "DESCRIPTION": "IT LOREM",
+    "MIDTERM": 3,
+    "FINALS": 3,
+    "FINAL GRADE": 3,
+    "REMARKS": "OK",
+    "CURRICULUM CODE": "BSCS2023",
+    "INC STATUS": "NULL",
+    "EQUIVALENCY": "NULL",
+    "RETAKE INFO": "NULL"
+   },
+    {
+    "Student ID": 1900005,
+    "FIRSTNAME": "JM",
+    "MIDDLENAME": "GER",
+    "LASTNAME": "GERERO",
+    "COURSE": "BSCS",
+    "YEAR": 4,
+    "SUBJECT": "ELEC",
+    "DESCRIPTION": "IT LOREM",
+    "MIDTERM": 3,
+    "FINALS": 2,
+    "FINAL GRADE": 1,
+    "REMARKS": "OK",
+    "CURRICULUM CODE": "BSCS2023",
+    "INC STATUS": "NULL",
+    "EQUIVALENCY": "NULL",
+    "RETAKE INFO": "NULL"
+   },
+  {
+    "Student ID": 1900006,
+    "FIRSTNAME": "ROMAR",
+    "MIDDLENAME": "LACRO",
+    "LASTNAME": "BARROS",
+    "COURSE": "BSCS",
+    "YEAR": 4,
+    "SUBJECT": "ELEC",
+    "DESCRIPTION": "ELECTION101",
+    "MIDTERM": 1,
+    "FINALS": 1,
+    "FINAL GRADE": 1,
+    "REMARKS": "OK",
+    "CURRICULUM CODE": "BSCS2023",
+    "INC STATUS": "NULL",
+    "EQUIVALENCY": "NULL",
+    "RETAKE INFO": "NULL"
+   }
+ ]
