@@ -106,41 +106,5 @@
     "INC STATUS": "NULL",
     "EQUIVALENCY": "NULL",
     "RETAKE INFO": "NULL"
-   },
-  {
-    "Student ID": 1900007,
-    "FIRSTNAME": "MARVINN",
-    "MIDDLENAME": "GER",
-    "LASTNAME": "GACUAN",
-    "COURSE": "BSCS",
-    "YEAR": 4,
-    "SUBJECT": "IT101",
-    "DESCRIPTION": "IT LOREM",
-    "MIDTERM": 2,
-    "FINALS": 2,
-    "FINAL GRADE": 2,
-    "REMARKS": "OK",
-    "CURRICULUM CODE": "BSCS2023",
-    "INC STATUS": "NULL",
-    "EQUIVALENCY": "NULL",
-    "RETAKE INFO": "NULL"
-   },
-  {
-    "Student ID": 1900007,
-    "FIRSTNAME": "MARVIN",
-    "MIDDLENAME": "GER",
-    "LASTNAME": "GACUAN",
-    "COURSE": "BSCS",
-    "YEAR": 4,
-    "SUBJECT": "ELEC",
-    "DESCRIPTION": "ELECTION101",
-    "MIDTERM": 3,
-    "FINALS": 3,
-    "FINAL GRADE": 3,
-    "REMARKS": "OK",
-    "CURRICULUM CODE": "BSCS2023",
-    "INC STATUS": "NULL",
-    "EQUIVALENCY": "NULL",
-    "RETAKE INFO": "NULL"
    }
  ]
