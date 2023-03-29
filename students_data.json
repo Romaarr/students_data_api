@@ -106,5 +106,23 @@
     "INC STATUS": "NULL",
     "EQUIVALENCY": "NULL",
     "RETAKE INFO": "NULL"
+   },
+  {
+    "Student ID": 1900006,
+    "FIRSTNAME": "ROMAR",
+    "MIDDLENAME": "LACRO",
+    "LASTNAME": "BARROS",
+    "COURSE": "BSCS",
+    "YEAR": 4,
+    "SUBJECT": "IT101",
+    "DESCRIPTION": "ELECTION101",
+    "MIDTERM": 2,
+    "FINALS": 2,
+    "FINAL GRADE": 2,
+    "REMARKS": "OK",
+    "CURRICULUM CODE": "BSCS2023",
+    "INC STATUS": "NULL",
+    "EQUIVALENCY": "NULL",
+    "RETAKE INFO": "NULL"
    }
  ]
